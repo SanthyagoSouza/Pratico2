@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+<style>
+    table{
+        border: solid 1px black     
+ }
+   table thead th{
+    background-color: black;
+    color:white
+   }
+   table tbody td{
+    background-color:lightgray;
+   }
+   table tbody tr:nth-chiel(even)td{
+background: color #f1f1f1;   
+}
+</style>
+
+</head>
+<body style="font-family: Arial, Helvetica, sans-serif;">
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <h3 align="center">Menu</h3>
+            <ul>
+                <li><a href="Principal.html">Inicio</a></li>
+                <li><a href="pagina.html">Sobre</a></li>
+                <li><a href="#Horario.html">Horario</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <!-- Aqui vai o seu header -->
+                <li><img title="Clinica especializada" src="Header.png" width="150" alt=""></li>
+            </div>
+    
+            <div class="content">
+             <h4 align="center">Nossos horarios de atendimento</h4>
+              <p>Todos os nossos especialistas funcinam em horarios determinado pela disponibilidade deles, contudo o clinico e o nutricionista tem o mesmo horario de atendimento</p>
+              <table align="center">
+              <hr>
+              <thead>
+                <tr>
+                    <th>Especilidade</th><th>Horario</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                    <td>Clinico Geral</td>
+                    <td>das 08:00 as 17:00</td>
+                </tr>
+                <tr>
+                    <td>Cardiologia</td>
+                    <td>das 09:00 as 15:00</td>
+                </tr>
+                <tr>
+                    <td>Ortopedia</td>
+                    <td>das 08:00 as 18:00</td>
+                </tr>
+                <tr>
+                    <td>Ginecologia</td>
+                    <td>das 08:00 as 18:00</td>
+                </tr>
+                <tr>
+                    <td>Exames em geral</td>
+                    <td>das 07:00 as 18:00</td>
+                </tr>
+              </tbody>
+                </table>
+                <p align="center">Consulte nossa disponibilidade ligando para a clinica</p>
+              
+              <!-- Aqui vai o seu conteúdo -->
+            </div>
+    
+            <div class="footer">
+              <p style="color:white;">Clinica especializada</p>
+              <p style="color:white;">Use o nosso menu e conheça todo nosso serviço ou entre em contato conosco</p>
+                <!-- Aqui vai o seu rodapé -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
